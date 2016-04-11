@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kaliedoscope Admin</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="first_bar">
+	<span class="logo"></span>
+	<span class="seprator"></span>
+	<span class="kdscope_logo"></span>
+</div>
+<div class="second_bar">
+</div>
+
+<%= yield %>
+
+<b>
+	<div class="footer">
+		<div></div>
+		<p>
+			&copy; 2015 ABS Club. All Rights Reserved.
+			<br><br>
+			Developed by KAUSTUB SINHA
+		</p>
+	</div>
+</b>
+</body>
+</html>

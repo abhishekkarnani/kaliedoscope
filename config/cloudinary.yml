@@ -1,0 +1,19 @@
+
+development:
+  cloud_name: abhishekkarnani
+  api_key: '957935331581469'
+  api_secret: 8fasnkQyUfnUDJ9e2QSGEtLzadk
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: abhishekkarnani
+  api_key: '957935331581469'
+  api_secret: 8fasnkQyUfnUDJ9e2QSGEtLzadk
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: abhishekkarnani
+  api_key: '957935331581469'
+  api_secret: 8fasnkQyUfnUDJ9e2QSGEtLzadk
+  enhance_image_tag: true
+  static_image_support: false

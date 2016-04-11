@@ -1,0 +1,63 @@
+.body{
+margin : 0;
+width: auto;
+overflow: hidden;
+}
+.first_bar{
+height : 80px;
+min-width : 1001px;
+background-image : url("../images/bg-body.jpg");
+background-repeat : repeat-x;
+}
+.second_bar{
+height: 30px;
+min-width: 1001px;
+font-family: Arial;
+color: #000;
+background-color: yellow;
+}
+.logo{
+background-image: url("../images/Whatsnew_clip_image002.gif");
+background-repeat: no-repeat;
+background-size: Auto 60px;
+margin-top : 10px;
+margin-left : 20px;
+float : left;
+}
+.separator{
+background-image: url("../images/Earth_seperator.png");
+background-repeat: no-repeat;
+background-size: Auto 50px;
+margin-top : 15px;
+margin-left : 20px;
+}
+.kdscope_logo{
+background-image: url("../images/kd_logo.png");
+background-repeat: no-repeat;
+background-size: Auto 60px;
+margin-top : 10px;
+margin-left : 20px;
+}
+.footer {
+border-color: #fff;
+border-style: solid none;
+border-width: 1px;
+padding: 0 0 5px;
+min-width: 1001px;
+margin: 0 auto;
+background-color: blue;
+min-height: 50px;
+}
+.footer > div {
+width: auto;
+margin: 0 auto;
+padding: 0 0 0 190px;
+}
+.footer p {
+color: #fff;
+float: right;
+font-family: arial;
+font-size: 10px;
+margin: 8px 0 0;
+text-transform: uppercase;
+}
